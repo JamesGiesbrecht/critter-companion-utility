@@ -1,0 +1,19 @@
+{
+  "name": "critter-companion-utility",
+  "version": "0.1.1",
+  "description": "Shared functions for crittercompanion.app and corresponding React Native app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesGiesbrecht/critter-companion-utility.git"
+  },
+  "author": "James Giesbrecht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesGiesbrecht/critter-companion-utility/issues"
+  },
+  "homepage": "https://github.com/JamesGiesbrecht/critter-companion-utility#readme"
+}
