@@ -8,7 +8,7 @@
     "/dist"
   ],
   "scripts": {
-    "publish": "tsc && np",
+    "pub": "tsc && np",
     "lint": "eslint src --ext .js,.ts"
   },
   "repository": {
