@@ -1,13 +1,15 @@
 {
   "name": "@james-giesbrecht/critter-companion-utility",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shared functions for crittercompanion.app and corresponding React Native app",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
   ],
-  "publishConfig": {"access": "public"},
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rm -rf dist/* && tsc && copyfiles \"src/**/*\" dist -e \"**/*.ts\" --all -u 1",
     "lint": "eslint src --ext .js,.ts"
