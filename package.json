@@ -7,6 +7,7 @@
   "files": [
     "/dist"
   ],
+  "publishConfig": {"access": "public"},
   "scripts": {
     "build": "rm -rf dist/* && tsc && copyfiles \"src/**/*\" dist -e \"**/*.ts\" --all -u 1",
     "lint": "eslint src --ext .js,.ts"
