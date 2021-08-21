@@ -1,4 +1,3 @@
-/* eslint-disable global-require */
 import { BaseCritter } from 'ts/types'
 
 const seaCreatures: BaseCritter[] = [
@@ -14,7 +13,6 @@ const seaCreatures: BaseCritter[] = [
     value: 600,
     northernMonths: [10, 11, 12, 1, 2, 3, 4, 5, 6, 7],
     southernMonths: [4, 5, 6, 7, 8, 9, 10, 11, 12, 1],
-    imagePath: require('../images/critters/sea/seaweed.png'),
   },
   {
     id: 'sea-grapes',
@@ -28,7 +26,6 @@ const seaCreatures: BaseCritter[] = [
     value: 900,
     northernMonths: [6, 7, 8, 9],
     southernMonths: [12, 1, 2, 3],
-    imagePath: require('../images/critters/sea/sea-grapes.png'),
   },
   {
     id: 'sea-cucumber',
@@ -42,7 +39,6 @@ const seaCreatures: BaseCritter[] = [
     value: 500,
     northernMonths: [11, 12, 1, 2, 3, 4],
     southernMonths: [5, 6, 7, 8, 9, 10],
-    imagePath: require('../images/critters/sea/sea-cucumber.png'),
   },
   {
     id: 'sea-pig',
@@ -56,7 +52,6 @@ const seaCreatures: BaseCritter[] = [
     value: 10000,
     northernMonths: [11, 12, 1, 2],
     southernMonths: [5, 6, 7, 8],
-    imagePath: require('../images/critters/sea/sea-pig.png'),
   },
   {
     id: 'sea-star',
@@ -70,7 +65,6 @@ const seaCreatures: BaseCritter[] = [
     value: 500,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/sea-star.png'),
   },
   {
     id: 'sea-urchin',
@@ -84,7 +78,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1700,
     northernMonths: [5, 6, 7, 8, 9],
     southernMonths: [11, 12, 1, 2, 3],
-    imagePath: require('../images/critters/sea/sea-urchin.png'),
   },
   {
     id: 'slate-pencil-urchin',
@@ -98,7 +91,6 @@ const seaCreatures: BaseCritter[] = [
     value: 2000,
     northernMonths: [5, 6, 7, 8, 9],
     southernMonths: [11, 12, 1, 2, 3],
-    imagePath: require('../images/critters/sea/slate-pencil-urchin.png'),
   },
   {
     id: 'sea-anemone',
@@ -112,7 +104,6 @@ const seaCreatures: BaseCritter[] = [
     value: 500,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/sea-anemone.png'),
   },
   {
     id: 'moon-jellyfish',
@@ -126,7 +117,6 @@ const seaCreatures: BaseCritter[] = [
     value: 600,
     northernMonths: [7, 8, 9],
     southernMonths: [1, 2, 3],
-    imagePath: require('../images/critters/sea/moon-jellyfish.png'),
   },
   {
     id: 'sea-slug',
@@ -140,7 +130,6 @@ const seaCreatures: BaseCritter[] = [
     value: 600,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/sea-slug.png'),
   },
   {
     id: 'pearl-oyster',
@@ -154,7 +143,6 @@ const seaCreatures: BaseCritter[] = [
     value: 2800,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/pearl-oyster.png'),
   },
   {
     id: 'mussel',
@@ -168,7 +156,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1500,
     northernMonths: [6, 7, 8, 9, 10, 11, 12],
     southernMonths: [12, 1, 2, 3, 4, 5, 6],
-    imagePath: require('../images/critters/sea/mussel.png'),
   },
   {
     id: 'oyster',
@@ -182,7 +169,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1100,
     northernMonths: [9, 10, 11, 12, 1, 2],
     southernMonths: [3, 4, 5, 6, 7, 8],
-    imagePath: require('../images/critters/sea/oyster.png'),
   },
   {
     id: 'scallop',
@@ -196,7 +182,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1200,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/scallop.png'),
   },
   {
     id: 'whelk',
@@ -210,7 +195,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1000,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/whelk.png'),
   },
   {
     id: 'turban-shell',
@@ -224,7 +208,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1000,
     northernMonths: [3, 4, 5, 9, 10, 11, 12],
     southernMonths: [3, 4, 5, 6, 9, 10, 11],
-    imagePath: require('../images/critters/sea/turban-shell.png'),
   },
   {
     id: 'abalone',
@@ -238,7 +221,6 @@ const seaCreatures: BaseCritter[] = [
     value: 2000,
     northernMonths: [6, 7, 8, 9, 10, 11, 12, 1],
     southernMonths: [12, 1, 2, 7, 4, 5, 6, 7],
-    imagePath: require('../images/critters/sea/abalone.png'),
   },
   {
     id: 'gigas-giant-clam',
@@ -252,7 +234,6 @@ const seaCreatures: BaseCritter[] = [
     value: 15000,
     northernMonths: [5, 6, 7, 8],
     southernMonths: [11, 12, 1, 2],
-    imagePath: require('../images/critters/sea/gigas-giant-clam.png'),
   },
   {
     id: 'chambered-nautilus',
@@ -266,7 +247,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1800,
     northernMonths: [3, 4, 5, 6, 9, 10, 11],
     southernMonths: [3, 4, 5, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/chambered-nautilus.png'),
   },
   {
     id: 'octopus',
@@ -280,7 +260,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1200,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/octopus.png'),
   },
   {
     id: 'umbrella-octopus',
@@ -294,7 +273,6 @@ const seaCreatures: BaseCritter[] = [
     value: 6000,
     northernMonths: [3, 4, 5, 9, 10, 11],
     southernMonths: [3, 4, 5, 9, 10, 11],
-    imagePath: require('../images/critters/sea/umbrella-octopus.png'),
   },
   {
     id: 'vampire-squid',
@@ -308,7 +286,6 @@ const seaCreatures: BaseCritter[] = [
     value: 10000,
     northernMonths: [5, 6, 7, 8],
     southernMonths: [11, 12, 1, 2],
-    imagePath: require('../images/critters/sea/vampire-squid.png'),
   },
   {
     id: 'firefly-squid',
@@ -322,7 +299,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1400,
     northernMonths: [3, 4, 5, 6],
     southernMonths: [9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/firefly-squid.png'),
   },
   {
     id: 'gazami-crab',
@@ -336,7 +312,6 @@ const seaCreatures: BaseCritter[] = [
     value: 2200,
     northernMonths: [6, 7, 8, 9, 10, 11],
     southernMonths: [12, 1, 2, 3, 4, 5],
-    imagePath: require('../images/critters/sea/gazami-crab.png'),
   },
   {
     id: 'dungeness-crab',
@@ -350,7 +325,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1900,
     northernMonths: [11, 12, 1, 2, 3, 4, 5],
     southernMonths: [5, 6, 7, 8, 9, 10, 11],
-    imagePath: require('../images/critters/sea/dungeness-crab.png'),
   },
   {
     id: 'snow-crab',
@@ -364,7 +338,6 @@ const seaCreatures: BaseCritter[] = [
     value: 6000,
     northernMonths: [11, 12, 1, 2, 3, 4],
     southernMonths: [5, 6, 7, 8, 9, 10],
-    imagePath: require('../images/critters/sea/snow-crab.png'),
   },
   {
     id: 'red-king-crab',
@@ -378,7 +351,6 @@ const seaCreatures: BaseCritter[] = [
     value: 8000,
     northernMonths: [11, 12, 1, 2, 3],
     southernMonths: [5, 6, 7, 8, 9],
-    imagePath: require('../images/critters/sea/red-king-crab.png'),
   },
   {
     id: 'acorn-barnacle',
@@ -392,7 +364,6 @@ const seaCreatures: BaseCritter[] = [
     value: 600,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/acorn-barnacle.png'),
   },
   {
     id: 'spider-crab',
@@ -406,7 +377,6 @@ const seaCreatures: BaseCritter[] = [
     value: 12000,
     northernMonths: [3, 4],
     southernMonths: [9, 10],
-    imagePath: require('../images/critters/sea/spider-crab.png'),
   },
   {
     id: 'tiger-prawn',
@@ -420,7 +390,6 @@ const seaCreatures: BaseCritter[] = [
     value: 3000,
     northernMonths: [6, 7, 8, 9],
     southernMonths: [12, 1, 2, 3],
-    imagePath: require('../images/critters/sea/tiger-prawn.png'),
   },
   {
     id: 'sweet-shrimp',
@@ -434,7 +403,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1400,
     northernMonths: [9, 10, 11, 12, 1, 2],
     southernMonths: [3, 4, 5, 6, 7, 8],
-    imagePath: require('../images/critters/sea/sweet-shrimp.png'),
   },
   {
     id: 'mantis-shrimp',
@@ -448,7 +416,6 @@ const seaCreatures: BaseCritter[] = [
     value: 2500,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/sea/mantis-shrimp.png'),
   },
   {
     id: 'spiny-lobster',
@@ -462,7 +429,6 @@ const seaCreatures: BaseCritter[] = [
     value: 5000,
     northernMonths: [10, 11, 12],
     southernMonths: [4, 5, 6],
-    imagePath: require('../images/critters/sea/spiny-lobster.png'),
   },
   {
     id: 'lobster',
@@ -476,7 +442,6 @@ const seaCreatures: BaseCritter[] = [
     value: 4500,
     northernMonths: [12, 1, 4, 5, 6],
     southernMonths: [6, 7, 10, 11, 12],
-    imagePath: require('../images/critters/sea/lobster.png'),
   },
   {
     id: 'giant-isopod',
@@ -490,7 +455,6 @@ const seaCreatures: BaseCritter[] = [
     value: 12000,
     northernMonths: [7, 8, 9, 10],
     southernMonths: [1, 2, 3, 4],
-    imagePath: require('../images/critters/sea/giant-isopod.png'),
   },
   {
     id: 'horseshoe-crab',
@@ -504,7 +468,6 @@ const seaCreatures: BaseCritter[] = [
     value: 2500,
     northernMonths: [7, 8, 9],
     southernMonths: [1, 2, 3],
-    imagePath: require('../images/critters/sea/horseshoe-crab.png'),
   },
   {
     id: 'sea-pineapple',
@@ -518,7 +481,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1500,
     northernMonths: [4, 5, 6, 7, 8],
     southernMonths: [10, 11, 12, 1, 2],
-    imagePath: require('../images/critters/sea/sea-pineapple.png'),
   },
   {
     id: 'spotted-garden-eel',
@@ -532,7 +494,6 @@ const seaCreatures: BaseCritter[] = [
     value: 1100,
     northernMonths: [5, 6, 7, 8, 9, 10],
     southernMonths: [11, 12, 1, 2, 3, 4],
-    imagePath: require('../images/critters/sea/spotted-garden-eel.png'),
   },
   {
     id: 'flatworm',
@@ -546,7 +507,6 @@ const seaCreatures: BaseCritter[] = [
     value: 700,
     northernMonths: [8, 9],
     southernMonths: [2, 3],
-    imagePath: require('../images/critters/sea/flatworm.png'),
   },
   {
     id: 'venus-flower-basket',
@@ -560,7 +520,6 @@ const seaCreatures: BaseCritter[] = [
     value: 5000,
     northernMonths: [10, 11, 12, 1, 2],
     southernMonths: [4, 5, 6, 7, 8],
-    imagePath: require('../images/critters/sea/venus-flower-basket.png'),
   },
 ]
 

@@ -1,4 +1,3 @@
-/* eslint-disable global-require */
 import { BaseCritter } from 'ts/types'
 
 const bugs: BaseCritter[] = [
@@ -12,7 +11,6 @@ const bugs: BaseCritter[] = [
     value: 3000,
     northernMonths: [4, 5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 10, 11, 12],
-    imagePath: require('../images/critters/bug/agrias-butterfly.png'),
   },
   {
     id: 'ant',
@@ -24,7 +22,6 @@ const bugs: BaseCritter[] = [
     value: 80,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/ant.png'),
   },
   {
     id: 'atlas-moth',
@@ -36,7 +33,6 @@ const bugs: BaseCritter[] = [
     value: 3000,
     northernMonths: [4, 5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 10, 11, 12],
-    imagePath: require('../images/critters/bug/atlas-moth.png'),
   },
   {
     id: 'bagworm',
@@ -48,7 +44,6 @@ const bugs: BaseCritter[] = [
     value: 600,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/bagworm.png'),
   },
   {
     id: 'banded-dragonfly',
@@ -60,7 +55,6 @@ const bugs: BaseCritter[] = [
     value: 4500,
     northernMonths: [5, 6, 7, 8, 9, 10],
     southernMonths: [1, 2, 3, 4, 11, 12],
-    imagePath: require('../images/critters/bug/banded-dragonfly.png'),
   },
   {
     id: 'bell-cricket',
@@ -72,7 +66,6 @@ const bugs: BaseCritter[] = [
     value: 430,
     northernMonths: [9, 10],
     southernMonths: [3, 4],
-    imagePath: require('../images/critters/bug/bell-cricket.png'),
   },
   {
     id: 'blue-weevil-beetle',
@@ -84,7 +77,6 @@ const bugs: BaseCritter[] = [
     value: 800,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/blue-weevil-beetle.png'),
   },
   {
     id: 'brown-cicada',
@@ -96,7 +88,6 @@ const bugs: BaseCritter[] = [
     value: 250,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/brown-cicada.png'),
   },
   {
     id: 'centipede',
@@ -108,7 +99,6 @@ const bugs: BaseCritter[] = [
     value: 300,
     northernMonths: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
     southernMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/centipede.png'),
   },
   {
     id: 'cicada-shell',
@@ -120,7 +110,6 @@ const bugs: BaseCritter[] = [
     value: 10,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/cicada-shell.png'),
   },
   {
     id: 'citrus-long-horned-beetle',
@@ -132,7 +121,6 @@ const bugs: BaseCritter[] = [
     value: 350,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/citrus-long-horned-beetle.png'),
   },
   {
     id: 'common-bluebottle',
@@ -144,7 +132,6 @@ const bugs: BaseCritter[] = [
     value: 300,
     northernMonths: [4, 5, 6, 7, 8],
     southernMonths: [1, 2, 10, 11, 12],
-    imagePath: require('../images/critters/bug/common-bluebottle.png'),
   },
   {
     id: 'common-butterfly',
@@ -156,7 +143,6 @@ const bugs: BaseCritter[] = [
     value: 160,
     northernMonths: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
     southernMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/common-butterfly.png'),
   },
   {
     id: 'cricket',
@@ -168,7 +154,6 @@ const bugs: BaseCritter[] = [
     value: 130,
     northernMonths: [9, 10, 11],
     southernMonths: [3, 4, 5],
-    imagePath: require('../images/critters/bug/cricket.png'),
   },
   {
     id: 'cyclommatus-stag',
@@ -180,7 +165,6 @@ const bugs: BaseCritter[] = [
     value: 8000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/cyclommatus-stag.png'),
   },
   {
     id: 'damselfly',
@@ -192,7 +176,6 @@ const bugs: BaseCritter[] = [
     value: 500,
     northernMonths: [1, 2, 11, 12],
     southernMonths: [5, 6, 7, 8],
-    imagePath: require('../images/critters/bug/damselfly.png'),
   },
   {
     id: 'darner-dragonfly',
@@ -204,7 +187,6 @@ const bugs: BaseCritter[] = [
     value: 230,
     northernMonths: [4, 5, 6, 7, 8, 9, 10],
     southernMonths: [1, 2, 3, 4, 10, 11, 12],
-    imagePath: require('../images/critters/bug/darner-dragonfly.png'),
   },
   {
     id: 'diving-beetle',
@@ -216,7 +198,6 @@ const bugs: BaseCritter[] = [
     value: 800,
     northernMonths: [5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 11, 12],
-    imagePath: require('../images/critters/bug/diving-beetle.png'),
   },
   {
     id: 'drone-beetle',
@@ -228,7 +209,6 @@ const bugs: BaseCritter[] = [
     value: 200,
     northernMonths: [6, 7, 8],
     southernMonths: [1, 2, 12],
-    imagePath: require('../images/critters/bug/drone-beetle.png'),
   },
   {
     id: 'dung-beetle',
@@ -240,7 +220,6 @@ const bugs: BaseCritter[] = [
     value: 3000,
     northernMonths: [1, 2, 12],
     southernMonths: [6, 7, 8],
-    imagePath: require('../images/critters/bug/dung-beetle.png'),
   },
   {
     id: 'earth-boring-dung-beetle',
@@ -252,7 +231,6 @@ const bugs: BaseCritter[] = [
     value: 300,
     northernMonths: [7, 8, 9],
     southernMonths: [1, 2, 3],
-    imagePath: require('../images/critters/bug/earth-boring-dung-beetle.png'),
   },
   {
     id: 'emperor-butterfly',
@@ -264,7 +242,6 @@ const bugs: BaseCritter[] = [
     value: 4000,
     northernMonths: [1, 2, 3, 6, 7, 8, 9, 12],
     southernMonths: [1, 2, 3, 6, 7, 8, 9, 11, 12],
-    imagePath: require('../images/critters/bug/emperor-butterfly.png'),
   },
   {
     id: 'evening-cicada',
@@ -276,7 +253,6 @@ const bugs: BaseCritter[] = [
     value: 550,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/evening-cicada.png'),
   },
   {
     id: 'firefly',
@@ -288,7 +264,6 @@ const bugs: BaseCritter[] = [
     value: 300,
     northernMonths: [6],
     southernMonths: [12],
-    imagePath: require('../images/critters/bug/firefly.png'),
   },
   {
     id: 'flea',
@@ -300,7 +275,6 @@ const bugs: BaseCritter[] = [
     value: 70,
     northernMonths: [4, 5, 6, 7, 8, 9, 10, 11],
     southernMonths: [1, 2, 3, 4, 5, 10, 11, 12],
-    imagePath: require('../images/critters/bug/flea.png'),
   },
   {
     id: 'fly',
@@ -312,7 +286,6 @@ const bugs: BaseCritter[] = [
     value: 60,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/fly.png'),
   },
   {
     id: 'giant-cicada',
@@ -324,7 +297,6 @@ const bugs: BaseCritter[] = [
     value: 500,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/giant-cicada.png'),
   },
   {
     id: 'giant-stag',
@@ -336,7 +308,6 @@ const bugs: BaseCritter[] = [
     value: 10000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/giant-stag.png'),
   },
   {
     id: 'giant-water-bug',
@@ -348,7 +319,6 @@ const bugs: BaseCritter[] = [
     value: 2000,
     northernMonths: [4, 5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 10, 11, 12],
-    imagePath: require('../images/critters/bug/giant-water-bug.png'),
   },
   {
     id: 'giraffe-stag',
@@ -360,7 +330,6 @@ const bugs: BaseCritter[] = [
     value: 12000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/giraffe-stag.png'),
   },
   {
     id: 'golden-stag',
@@ -372,7 +341,6 @@ const bugs: BaseCritter[] = [
     value: 12000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/golden-stag.png'),
   },
   {
     id: 'goliath-beetle',
@@ -384,7 +352,6 @@ const bugs: BaseCritter[] = [
     value: 8000,
     northernMonths: [6, 7, 8, 9],
     southernMonths: [1, 2, 3, 4, 12],
-    imagePath: require('../images/critters/bug/goliath-beetle.png'),
   },
   {
     id: 'grasshopper',
@@ -396,7 +363,6 @@ const bugs: BaseCritter[] = [
     value: 160,
     northernMonths: [7, 8, 9],
     southernMonths: [1, 2, 3],
-    imagePath: require('../images/critters/bug/grasshopper.png'),
   },
   {
     id: 'great-purple-emperor',
@@ -408,7 +374,6 @@ const bugs: BaseCritter[] = [
     value: 3000,
     northernMonths: [5, 6, 7, 8],
     southernMonths: [1, 2, 11, 12],
-    imagePath: require('../images/critters/bug/great-purple-emperor.png'),
   },
   {
     id: 'hermit-crab',
@@ -420,7 +385,6 @@ const bugs: BaseCritter[] = [
     value: 1000,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/hermit-crab.png'),
   },
   {
     id: 'honeybee',
@@ -432,7 +396,6 @@ const bugs: BaseCritter[] = [
     value: 200,
     northernMonths: [3, 4, 5, 6, 7],
     southernMonths: [1, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/honeybee.png'),
   },
   {
     id: 'horned-atlas',
@@ -444,7 +407,6 @@ const bugs: BaseCritter[] = [
     value: 8000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/horned-atlas.png'),
   },
   {
     id: 'horned-dynastid',
@@ -456,7 +418,6 @@ const bugs: BaseCritter[] = [
     value: 1350,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/horned-dynastid.png'),
   },
   {
     id: 'horned-elephant',
@@ -468,7 +429,6 @@ const bugs: BaseCritter[] = [
     value: 8000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/horned-elephant.png'),
   },
   {
     id: 'horned-hercules',
@@ -480,7 +440,6 @@ const bugs: BaseCritter[] = [
     value: 12000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/horned-hercules.png'),
   },
   {
     id: 'jewel-beetle',
@@ -492,7 +451,6 @@ const bugs: BaseCritter[] = [
     value: 2400,
     northernMonths: [4, 5, 6, 7, 8],
     southernMonths: [1, 2, 10, 11, 12],
-    imagePath: require('../images/critters/bug/jewel-beetle.png'),
   },
   {
     id: 'ladybug',
@@ -504,7 +462,6 @@ const bugs: BaseCritter[] = [
     value: 200,
     northernMonths: [3, 4, 5, 6, 10],
     southernMonths: [4, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/ladybug.png'),
   },
   {
     id: 'long-locust',
@@ -516,7 +473,6 @@ const bugs: BaseCritter[] = [
     value: 200,
     northernMonths: [4, 5, 6, 7, 8, 9, 10, 11],
     southernMonths: [1, 2, 3, 4, 5, 10, 11, 12],
-    imagePath: require('../images/critters/bug/long-locust.png'),
   },
   {
     id: 'madagascan-sunset-moth',
@@ -528,7 +484,6 @@ const bugs: BaseCritter[] = [
     value: 2500,
     northernMonths: [4, 5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 10, 11, 12],
-    imagePath: require('../images/critters/bug/madagascan-sunset-moth.png'),
   },
   {
     id: 'man-faced-stinkbug',
@@ -540,7 +495,6 @@ const bugs: BaseCritter[] = [
     value: 1000,
     northernMonths: [3, 4, 5, 6, 7, 8, 9, 10],
     southernMonths: [1, 2, 3, 4, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/man-faced-stinkbug.png'),
   },
   {
     id: 'mantis',
@@ -552,7 +506,6 @@ const bugs: BaseCritter[] = [
     value: 430,
     northernMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11],
     southernMonths: [1, 2, 3, 4, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/mantis.png'),
   },
   {
     id: 'migratory-locust',
@@ -564,7 +517,6 @@ const bugs: BaseCritter[] = [
     value: 600,
     northernMonths: [8, 9, 10, 11],
     southernMonths: [2, 3, 4, 5],
-    imagePath: require('../images/critters/bug/migratory-locust.png'),
   },
   {
     id: 'miyama-stag',
@@ -576,7 +528,6 @@ const bugs: BaseCritter[] = [
     value: 1000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/miyama-stag.png'),
   },
   {
     id: 'mole-cricket',
@@ -588,7 +539,6 @@ const bugs: BaseCritter[] = [
     value: 500,
     northernMonths: [1, 2, 3, 4, 5, 11, 12],
     southernMonths: [5, 6, 7, 8, 9, 10, 11],
-    imagePath: require('../images/critters/bug/mole-cricket.png'),
   },
   {
     id: 'monarch-butterfly',
@@ -600,7 +550,6 @@ const bugs: BaseCritter[] = [
     value: 140,
     northernMonths: [9, 10, 11],
     southernMonths: [3, 4, 5],
-    imagePath: require('../images/critters/bug/monarch-butterfly.png'),
   },
   {
     id: 'mosquito',
@@ -612,7 +561,6 @@ const bugs: BaseCritter[] = [
     value: 130,
     northernMonths: [6, 7, 8, 9],
     southernMonths: [1, 2, 3, 12],
-    imagePath: require('../images/critters/bug/mosquito.png'),
   },
   {
     id: 'moth',
@@ -624,7 +572,6 @@ const bugs: BaseCritter[] = [
     value: 130,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/moth.png'),
   },
   {
     id: 'orchid-mantis',
@@ -636,7 +583,6 @@ const bugs: BaseCritter[] = [
     value: 2400,
     northernMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11],
     southernMonths: [1, 2, 3, 4, 5, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/orchid-mantis.png'),
   },
   {
     id: 'paper-kite-butterfly',
@@ -648,7 +594,6 @@ const bugs: BaseCritter[] = [
     value: 1000,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/paper-kite-butterfly.png'),
   },
   {
     id: 'peacock-butterfly',
@@ -660,7 +605,6 @@ const bugs: BaseCritter[] = [
     value: 2500,
     northernMonths: [3, 4, 5, 6],
     southernMonths: [9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/peacock-butterfly.png'),
   },
   {
     id: 'pill-bug',
@@ -672,7 +616,6 @@ const bugs: BaseCritter[] = [
     value: 250,
     northernMonths: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
     southernMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/pill-bug.png'),
   },
   {
     id: 'pondskater',
@@ -684,7 +627,6 @@ const bugs: BaseCritter[] = [
     value: 130,
     northernMonths: [5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 11, 12],
-    imagePath: require('../images/critters/bug/pondskater.png'),
   },
   {
     id: 'queen-alexandras-birdwing',
@@ -696,7 +638,6 @@ const bugs: BaseCritter[] = [
     value: 4000,
     northernMonths: [5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 4, 11, 12],
-    imagePath: require('../images/critters/bug/queen-alexandras-birdwing.png'),
   },
   {
     id: 'rainbow-stag',
@@ -708,7 +649,6 @@ const bugs: BaseCritter[] = [
     value: 6000,
     northernMonths: [6, 7, 8, 9],
     southernMonths: [1, 2, 3, 12],
-    imagePath: require('../images/critters/bug/rainbow-stag.png'),
   },
   {
     id: 'rajah-brookes-birdwing',
@@ -720,7 +660,6 @@ const bugs: BaseCritter[] = [
     value: 2500,
     northernMonths: [1, 2, 4, 5, 6, 7, 8, 9, 12],
     southernMonths: [1, 2, 3, 6, 7, 8, 10, 11, 12],
-    imagePath: require('../images/critters/bug/rajah-brookes-birdwing.png'),
   },
   {
     id: 'red-dragonfly',
@@ -732,7 +671,6 @@ const bugs: BaseCritter[] = [
     value: 180,
     northernMonths: [9, 10],
     southernMonths: [3, 4],
-    imagePath: require('../images/critters/bug/red-dragonfly.png'),
   },
   {
     id: 'rice-grasshopper',
@@ -744,7 +682,6 @@ const bugs: BaseCritter[] = [
     value: 160,
     northernMonths: [8, 9, 10, 11],
     southernMonths: [2, 3, 4, 5],
-    imagePath: require('../images/critters/bug/rice-grasshopper.png'),
   },
   {
     id: 'robust-cicada',
@@ -756,7 +693,6 @@ const bugs: BaseCritter[] = [
     value: 300,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/robust-cicada.png'),
   },
   {
     id: 'rosalia-batesi-beetle',
@@ -768,7 +704,6 @@ const bugs: BaseCritter[] = [
     value: 3000,
     northernMonths: [5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 11, 12],
-    imagePath: require('../images/critters/bug/rosalia-batesi-beetle.png'),
   },
   {
     id: 'saw-stag',
@@ -780,7 +715,6 @@ const bugs: BaseCritter[] = [
     value: 2000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/saw-stag.png'),
   },
   {
     id: 'scarab-beetle',
@@ -792,7 +726,6 @@ const bugs: BaseCritter[] = [
     value: 10000,
     northernMonths: [7, 8],
     southernMonths: [1, 2],
-    imagePath: require('../images/critters/bug/scarab-beetle.png'),
   },
   {
     id: 'scorpion',
@@ -804,7 +737,6 @@ const bugs: BaseCritter[] = [
     value: 8000,
     northernMonths: [5, 6, 7, 8, 9, 10],
     southernMonths: [1, 2, 3, 4, 11, 12],
-    imagePath: require('../images/critters/bug/scorpion.png'),
   },
   {
     id: 'snail',
@@ -816,7 +748,6 @@ const bugs: BaseCritter[] = [
     value: 250,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/snail.png'),
   },
   {
     id: 'spider',
@@ -828,7 +759,6 @@ const bugs: BaseCritter[] = [
     value: 480,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/spider.png'),
   },
   {
     id: 'stinkbug',
@@ -840,7 +770,6 @@ const bugs: BaseCritter[] = [
     value: 120,
     northernMonths: [3, 4, 5, 6, 7, 8, 9, 10],
     southernMonths: [1, 2, 3, 4, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/stinkbug.png'),
   },
   {
     id: 'tarantula',
@@ -852,7 +781,6 @@ const bugs: BaseCritter[] = [
     value: 8000,
     northernMonths: [1, 2, 3, 4, 11, 12],
     southernMonths: [5, 6, 7, 8, 9, 10],
-    imagePath: require('../images/critters/bug/tarantula.png'),
   },
   {
     id: 'tiger-beetle',
@@ -864,7 +792,6 @@ const bugs: BaseCritter[] = [
     value: 1500,
     northernMonths: [2, 3, 4, 5, 6, 7, 8, 9, 10],
     southernMonths: [1, 2, 3, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/tiger-beetle.png'),
   },
   {
     id: 'tiger-butterfly',
@@ -876,7 +803,6 @@ const bugs: BaseCritter[] = [
     value: 240,
     northernMonths: [3, 4, 5, 6, 7, 8, 9],
     southernMonths: [1, 2, 3, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/tiger-butterfly.png'),
   },
   {
     id: 'violin-beetle',
@@ -888,7 +814,6 @@ const bugs: BaseCritter[] = [
     value: 450,
     northernMonths: [5, 6, 9, 10, 11],
     southernMonths: [3, 4, 5, 11, 12],
-    imagePath: require('../images/critters/bug/violin-beetle.png'),
   },
   {
     id: 'walker-cicada',
@@ -900,7 +825,6 @@ const bugs: BaseCritter[] = [
     value: 400,
     northernMonths: [8, 9],
     southernMonths: [2, 3],
-    imagePath: require('../images/critters/bug/walker-cicada.png'),
   },
   {
     id: 'walking-leaf',
@@ -912,7 +836,6 @@ const bugs: BaseCritter[] = [
     value: 600,
     northernMonths: [7, 8, 9],
     southernMonths: [1, 2, 3],
-    imagePath: require('../images/critters/bug/walking-leaf.png'),
   },
   {
     id: 'walking-stick',
@@ -924,7 +847,6 @@ const bugs: BaseCritter[] = [
     value: 600,
     northernMonths: [7, 8, 9, 10, 11],
     southernMonths: [1, 2, 3, 4, 5],
-    imagePath: require('../images/critters/bug/walking-stick.png'),
   },
   {
     id: 'wasp',
@@ -936,7 +858,6 @@ const bugs: BaseCritter[] = [
     value: 2500,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/wasp.png'),
   },
   {
     id: 'wharf-roach',
@@ -948,7 +869,6 @@ const bugs: BaseCritter[] = [
     value: 200,
     northernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     southernMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/wharf-roach.png'),
   },
   {
     id: 'yellow-butterfly',
@@ -960,7 +880,6 @@ const bugs: BaseCritter[] = [
     value: 160,
     northernMonths: [3, 4, 5, 6, 7, 8, 9, 10],
     southernMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-    imagePath: require('../images/critters/bug/yellow-butterfly.png'),
   },
 ]
 
