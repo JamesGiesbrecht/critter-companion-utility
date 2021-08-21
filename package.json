@@ -1,8 +1,12 @@
 {
   "name": "critter-companion-utility",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Shared functions for crittercompanion.app and corresponding React Native app",
-  "main": "./src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "publish": "np",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +23,7 @@
   },
   "homepage": "https://github.com/JamesGiesbrecht/critter-companion-utility#readme",
   "devDependencies": {
+    "@types/node": "^16.7.1",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
     "eslint": "^7.32.0",

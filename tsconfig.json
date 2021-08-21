@@ -19,8 +19,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "declaration": true,
+    "outDir": "./dist"
   },
   "include": [
-    "src"
+    "src/**/*"
   ]
 }
