@@ -1,6 +1,6 @@
 {
   "name": "@james-giesbrecht/critter-companion-utility",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shared functions for crittercompanion.app and corresponding React Native app",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
